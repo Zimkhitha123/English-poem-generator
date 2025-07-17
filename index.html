@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Poem generator</title>
     <link rel="stylesheet" href="src/style.css">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 </head>
 <body>
     <div class="container">
@@ -12,7 +13,7 @@
     <h1>AI English poem generator</h1>
 </header>
 <main>
-    <form>
+    <form id="poem-generator-form">
         <input type="text" placeholder="Enter the topic of the english poem" autofocus
         required
         autocomplete="off"
@@ -20,11 +21,8 @@
     <input type="Submit"  class="submit-button"/>
 
     </form>
-    <div class="poem">
-        The poem will go here
-        <br/>
-             The poem will go here
-   
+    <div class="poem" id="poem">
+      
     </div>
 </main>
     <footer>This AI project was coded by <a href="https://github.com/Zimkhitha123" target="-black"> Zimkhitha Mbanyaru </a> and is <a href="https://github.com/Zimkhitha123/English-poem-generator" target="-blank">open-sourced on GitHub </a>
